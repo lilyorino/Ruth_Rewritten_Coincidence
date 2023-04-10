@@ -111,7 +111,7 @@ def label_image(input_image):
             plt.imshow(input_image)
             plt.show() 
         
-# Or if you wanted to go above and beyond and measure some more parameters based off of the images you've created, the following lines can show you Area, Perimeter, Centroid, Orientation, Axes Lengths, and Intensities. 
+# Or if you wanted to measure some more parameters based off of the images you've created, the following lines can show you Area, Perimeter, Centroid, Orientation, Axes Lengths, and Intensities. 
     # (This would be done using the labelled and original images.)
 
 def analyse_labelled_image(labelled_image,original_image):
