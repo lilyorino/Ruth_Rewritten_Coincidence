@@ -280,23 +280,3 @@ Output_all = Output_all.append({'Number green' : number_green,
 
 
 Output_all.to_csv(folder_path + 'All.csv', sep = '\t')
-
-for path in path_list:
-    number_green = ...
-    number_red = ...
-    number_of_coinc = ...
-    number_of_chance = ...
-    Q = ...
-    
-    print('Path:', path)
-    print('Number green:', number_green)
-    print('Number red:', number_red)
-    print('Number coincident:', number_of_coinc)
-    print('Number chance:', number_of_chance)
-    print('Q:', Q)
-    
-    Output_all = Output_all.append({'Number green': number_green,
-                                    'Number red': number_red,
-                                    'Number coincident': number_of_coinc,
-                                    'Number chance': number_of_chance,
-                                    'Q': Q}, ignore_index=True)
